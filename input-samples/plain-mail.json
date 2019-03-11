@@ -1,0 +1,9 @@
+{
+  "headers": [
+    "subject: \"Good news\"",
+    "from: bob <bob@tutanota.com>",
+    "to: <alice@somewhere.else.com>",
+    "date: Thu Mar 07 2019 17:07:00 GMT+0100"
+  ],
+  "body": "Hi Alice,\nI guess you will not believe it, but I have found the dog. It was hidden where you never would have expected.\nCheers,\nBob"
+}

@@ -1,0 +1,20 @@
+// require('../misc/experiments')
+const email = require('../input-samples/plain-mail.json')
+const sign = require('./signature')
+const verify = require('./verification')
+
+const algorithm = 'rsa-sha1'
+
+console.log('---------')
+console.log('Usage example for DKIM sign and verify operations...')
+console.log('Email to sign:', email)
+console.log('Hash Algorithm:', algorithm)
+console.log('---------')
+console.log('... signing email ...')
+const signature = sign(email, algorithm)
+console.log('... Email successfuly signed! Signature:', signature)
+console.log('---------')
+console.log('... Verifying email ...')
+const valid = verify(email, signature, algorithm)
+console.log('Is Valid?', valid ? 'yes' : 'no')
+console.log('---------')
