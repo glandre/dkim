@@ -1,5 +1,7 @@
 # DKIM
 
+THIS PROJECT IS IMPLEMENTED WITH PURPOSES OF STUDY AND EXPERIMENTATION AND SHOULD NOT BE USED IN REAL CASE SCENARIOS.
+
 ## Getting started
 
 After downloading the source code, run the following command to install the software:
